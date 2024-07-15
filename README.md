@@ -2,6 +2,11 @@
 
 To integrate Bareos Exporter with Prometheus and PostgreSQL, follow these steps:
 
+sudo apt install python3-psycopg2
+sudo apt install python3-pip
+pip3 install prometheus_client
+
+
 1. **Adding Prometheus User to PostgreSQL:**
 
     - Log in to your PostgreSQL database as a superuser.
